@@ -3,9 +3,9 @@
 This repository contains the code and documentation for implementing retrieval-augmented generation and prompt engineering for a chatbot to aid students in distributed computing concepts. The current LLM used is Google's Gemini 1.5 Flash API via Google Cloud Console, with a simple retrieval implementation using a structured corpus and TF-IDF (Term Frequency — Inverse Document Frequency). The chatbot can be accessed [here.](https://jsz.pythonanywhere.com/)
 
 Future experimentations for retrieval include:
-Neural Network Embeddings (eg. OpenAI/Cohere’s embedding models)
-Best Match 25 (BM25): A probabilistic retrieval model 
-Hybrid Search: Attempt to optimize results by assigning distinctive weights to different methodologies, such as Neural Network Embeddings, BM25, and TF-IDF.
+- Neural Network Embeddings (eg. OpenAI/Cohere’s embedding models)
+- Best Match 25 (BM25): A probabilistic retrieval model 
+- Hybrid Search: Attempt to optimize results by assigning distinctive weights to different methodologies, such as Neural Network Embeddings, BM25, and TF-IDF.
 
 ---
 # Running application
