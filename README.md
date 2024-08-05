@@ -2,7 +2,7 @@
 
 This repository contains the code and documentation for implementing retrieval-augmented generation and prompt engineering for a chatbot to aid students in distributed computing concepts. The current LLM used is Google's Gemini 1.5 Flash API via Google Cloud Console, with RAG using TF-IDF.
 
-The chatbot in it's current work in progress state can be accessed [here.](https://jsz.pythonanywhere.com/)
+The chatbot can be accessed [here.](https://jsz.pythonanywhere.com/)
 
 ---
 
