@@ -1,0 +1,8 @@
+core.py
+__pycache__
+
+token.json
+gen-lang-client.json
+client_secret.json
+.env
+
