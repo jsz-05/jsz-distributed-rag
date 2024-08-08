@@ -6,3 +6,5 @@ gen-lang-client.json
 client_secret.json
 .env
 
+gemini_chatbot copy.py
+
