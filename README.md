@@ -10,6 +10,6 @@ Future experimentations for retrieval include:
 ---
 # Running application
 - To run the application locally, first ensure all dependencies/libraries are installed and API keys loaded in `.env`.
-- Optionally, run `scrape_website_enhanced` if you wish to update the corpus with the course website's current changes.
-- Then run `gemini_chatbot.py` or `gpt_chatbot.py` and navigate to http://127.0.0.1:5000/.
+- Optionally, run `scrape_website_enhanced` in `/scraper` if you wish to update the corpus with the course website's current changes.
+- Then run `flask_app.py` and navigate to http://127.0.0.1:5000/.
 
