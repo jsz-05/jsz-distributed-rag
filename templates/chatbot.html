@@ -27,8 +27,21 @@
             flex-direction: column;
         }
         h1 {
+            text-align: left;
+            color: #A5D6A7;
+            font-weight: bold;
+            font-size: 1em;
+        }
+        h2 {
             text-align: center;
             color: #58a6da;
+            display: block;
+            font-size: 2em;
+            margin-top: 0.67em;
+            margin-bottom: 0.67em;
+            margin-left: 0;
+            margin-right: 0;
+            font-weight: bold;
         }
         #chatbox {
             flex-grow: 1;
@@ -141,7 +154,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Distributed Computing Chatbot (Alpha)</h1>
+        <h2>Distributed Computing Chatbot (Alpha)</h2>
         <div id="chatbox"></div>
         <div class="input-container">
             <input type="text" id="userInput" placeholder="Type your message here">

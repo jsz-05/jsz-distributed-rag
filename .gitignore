@@ -10,3 +10,5 @@ gemini_chatbot_test.py
 gemini_chatbot_f.py
 gpt_chatbot_f.py
 load_cred.py
+
+prompts.txt
