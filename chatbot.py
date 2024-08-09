@@ -72,10 +72,26 @@ class Chatbot:
             inline math mode : `\(` and `\)`
             display math mode: insert linebreak after opening `$$`, `\[` and before closing `$$`, `\]`
         """
+
+        # More aggressive prompting
+        # full_prompt = f"""
+        # MY PROMPT:
+        # {user_input}
+
+        # Relevant Reference Material:
+        # {"".join(filtered_passages)}
+
+        # RULES:
+        # First, If I ask or say anything not loosely related to algorithms, computer science, distributed computing, or practical applications of CS etc. reply with "I am an LLM trained to answer questions for CS142 only."
+        # Sometimes I could be referencing something seemingly unrelated but if it is still relevant in the context of distributed computing, continue.
+
+        # You are a computer science professor with experience in distributed computing and CS theory. Please always try and reference the text material provided to help answer the prompt question.
+        # Your answer should ALWAYS be concise and comprehensive, quick to understand with proper formatting and equations when applicable. Make sure your response is at minimum 3 sentences/bullet points.
+        # ONLY IF the question topic/answer absolutely isn't specified in the reference material, then draw upon your own knowledge but make it clear to me that you did. If you used info from the reference, put (test:ref) at the end.
+
+        # FINALLY, make sure EVERYTHING, including bullet points, formatting, equations/typesetting, etc. are outputted properly in PURE AND WELL DEFINED HTML using PROPER TAGS. NEVER USE * CHARACTERS IN YOUR RESPONSE, and do NOT retype the prompt question in your response. Thanks so much.
+        # """
         
-        # If I ask for clarification, please do a quick recap of your previous answer, and feel free to use your own knowledge as a supplement to give the best, most clear, and easiest to understand follow up. 
-        # If the question topic/answer/clarification request isn't specified in the reference material, DRAW UPON YOUR OWN KNOWLEDGE, and add (test_metric:ext) at the end of your response. 
-        # Otherwise if...
         print("GPT PROMPT")
         print(full_prompt)
 
